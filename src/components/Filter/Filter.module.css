@@ -1,0 +1,20 @@
+.divFilter {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.divFilter input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.divFilter input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.divFilter input::placeholder {
+  font-style: italic;
+}
